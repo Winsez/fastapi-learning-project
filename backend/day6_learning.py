@@ -47,6 +47,9 @@ def get_character_by_id(character_id: int):
         if character["id"] == character_id:
             return character
 
-        raise HTTPException(
-            status_code=404
-        )
+    raise HTTPException(
+        status_code=404
+    )
+
+
+# Git practice
