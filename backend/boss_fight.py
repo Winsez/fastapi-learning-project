@@ -15,5 +15,3 @@ def vaca (
         "role": role,
         "format": format
     }
-
-# Zaloopa
