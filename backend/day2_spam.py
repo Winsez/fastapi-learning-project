@@ -64,7 +64,6 @@ def vac_filter(
     return good_vac[offset:offset + limit]
 
 
-
 @app.get("/vacancies/{vacancy_id}")
 def vac_id(vacancy_id: int):
     for vacancy in vacancies:
